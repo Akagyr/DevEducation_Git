@@ -25,8 +25,6 @@ localStorage.clear();
 localStorage.setItem("myCourse", "front-end");
 localStorage.setItem("isStudent", true);
 
-console.log(localStorage);
-
 if (localStorage["myCourse"]) {
     localStorage.setItem("country", "Ukraine");
 }
